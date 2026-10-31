@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "DOI 清单顺序",
+  "version": "0.3.0",
+  "description": "支持文献手动拖拽排序与多选移位；保留完整清单编号，可恢复清单顺序并补入缺少条目。",
+  "author": "Local custom plugin",
+  "applications": {
+    "zotero": {
+      "id": "doi-list-order@local.custom",
+      "update_url": "https://doi-list-order.invalid/updates.json",
+      "strict_min_version": "9.0",
+      "strict_max_version": "9.0.*"
+    }
+  }
+}
